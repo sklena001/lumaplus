@@ -611,34 +611,6 @@ input, select, textarea {
 
 /* Type */
 
-	.logo {
-		max-width: 100%;
-        }
-		
-		@media screen and (max-width: 1680px) {
-
-			.logo {
-				max-width: 75%;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.logo {
-				max-width: 68.75%;
-			}
-
-		}
-
-		@media screen and (max-width: 360px) {
-
-			.logo {
-				max-width: 62.5%;
-			}
-
-		}
-
         html {
 		font-size: 16pt;
 	}
@@ -831,6 +803,34 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+
+	.logo {
+		width: 40vw;
+        }
+		
+		@media screen and (max-width: 1680px) {
+
+			.logo {
+				transform: scale(0.75);
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.logo {
+				transform: scale(0.6875);
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			.logo {
+				transform: scale(0.625);
+			}
+
+		}
 
 /* Form */
 
