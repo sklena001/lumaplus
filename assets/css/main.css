@@ -811,7 +811,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.logo {
-				transform: scale(0.75);
+				max-width: 30%;
 			}
 
 		}
@@ -819,7 +819,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.logo {
-				transform: scale(0.6875);
+				max-width: 27.5%;
 			}
 
 		}
@@ -827,7 +827,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			.logo {
-				transform: scale(0.625);
+				max-width: 25%;
 			}
 
 		}
