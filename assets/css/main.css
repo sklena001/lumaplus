@@ -804,8 +804,8 @@ input, select, textarea {
 		text-align: right;
 	}
 
-	.logo {
-		width: 40%;
+/*	.logo {
+		width: auto;
         }
 		
 		@media screen and (max-width: 1680px) {
@@ -830,7 +830,7 @@ input, select, textarea {
 				max-width: 25%;
 			}
 
-		}
+		} */
 
 /* Form */
 
@@ -1823,7 +1823,7 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 40%;
+			width: auto;
 			/*height: 15%;*/
 			/*line-height: 5.5rem;*/
 			/*border: solid 1px #ffffff;*/
