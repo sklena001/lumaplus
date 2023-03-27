@@ -806,6 +806,7 @@ input, select, textarea {
 
 	.logo {
 		display: flex;
+		justify-content: center;
         }
 		
 		/*@media screen and (max-width: 1680px) {
@@ -1982,7 +1983,6 @@ input, select, textarea {
 
 		.header_logo {
 			width: 750px;
-			justify-content: center;
 			
 		}
 
