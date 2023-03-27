@@ -804,11 +804,11 @@ input, select, textarea {
 		text-align: right;
 	}
 
-/*	.logo {
-		width: auto;
+	.logo {
+		display: flex;
         }
 		
-		@media screen and (max-width: 1680px) {
+		/*@media screen and (max-width: 1680px) {
 
 			.logo {
 				max-width: 30%;
@@ -1982,6 +1982,8 @@ input, select, textarea {
 
 		.header_logo {
 			width: 750px;
+			justify-content: center;
+			
 		}
 
 		@media screen and (max-width: 980px) {
@@ -1992,7 +1994,6 @@ input, select, textarea {
 			
 			header_logo {
 				width: 500px;
-				align-content: center;
 			}
 
 		}
@@ -2028,7 +2029,6 @@ input, select, textarea {
 			
 			.header_logo {
 				width: 400px;
-				align-content: center;
 			}
 
 		}
@@ -2074,7 +2074,6 @@ input, select, textarea {
 			
 			.header_logo {
 				width: 250px;
-				align-content: center;
 			}
 
 		}
