@@ -1980,10 +1980,18 @@ input, select, textarea {
 				opacity: 0;
 			}
 
+		.header_logo {
+			width: 750px;
+		}
+
 		@media screen and (max-width: 980px) {
 
 			#header .content p br {
 				display: none;
+			}
+			
+			header_logo {
+				width: 500px;
 			}
 
 		}
@@ -2015,6 +2023,10 @@ input, select, textarea {
 
 			#header .content p {
 				line-height: 1.875;
+			}
+			
+			.header_logo {
+				width: 400px;
 			}
 
 		}
@@ -2057,6 +2069,10 @@ input, select, textarea {
 				#header nav.use-middle:after {
 					display: none;
 				}
+			
+			.header_logo {
+				width: 250px;
+			}
 
 		}
 
