@@ -1983,6 +1983,7 @@ input, select, textarea {
 
 		.header_logo {
 			width: 750px;
+			align-self: center;
 			
 		}
 
