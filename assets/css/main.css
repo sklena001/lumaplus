@@ -1822,13 +1822,13 @@ input, select, textarea {
 				display: none;
 			}
 
-		#header .logo {
+		/*#header .logo {
 			width: 750px;
-			/*height: 15%;*/
-			/*line-height: 5.5rem;*/
-			/*border: solid 1px #ffffff;*/
-			/*border-radius: 25%;*/
-			/*padding: 1.5%;*/
+			height: 15%;
+			line-height: 5.5rem;
+			border: solid 1px #ffffff;
+			border-radius: 25%;
+			padding: 1.5%;
 			
 		}
 		
@@ -1836,7 +1836,7 @@ input, select, textarea {
 			#header .logo {
 				 width: 300px
 				}
-			}
+			}*/
 		
 		
 
@@ -1992,6 +1992,7 @@ input, select, textarea {
 			
 			header_logo {
 				width: 500px;
+				align-content: center;
 			}
 
 		}
@@ -2027,6 +2028,7 @@ input, select, textarea {
 			
 			.header_logo {
 				width: 400px;
+				align-content: center;
 			}
 
 		}
@@ -2072,6 +2074,7 @@ input, select, textarea {
 			
 			.header_logo {
 				width: 250px;
+				align-content: center;
 			}
 
 		}
