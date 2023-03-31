@@ -1993,8 +1993,12 @@ input, select, textarea {
 				display: none;
 			}
 			
-			header_logo {
+			.header_logo {
 				width: 500px;
+			}
+			
+			.contact_info {
+				scale: 0.8;
 			}
 
 		}
@@ -2030,6 +2034,10 @@ input, select, textarea {
 			
 			.header_logo {
 				width: 400px;
+			}
+			
+			.contact_info {
+				scale: 0.7;
 			}
 
 		}
@@ -2075,6 +2083,10 @@ input, select, textarea {
 			
 			.header_logo {
 				width: 250px;
+			}
+			
+			.contact_info {
+				scale: 0.5;	
 			}
 
 		}
