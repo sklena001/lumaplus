@@ -1997,8 +1997,8 @@ input, select, textarea {
 				width: 500px;
 			}
 			
-			.contact_info_child {
-				scale: 0.8;
+			.contact_info {
+				font-size: 10px;
 			}
 
 		}
@@ -2036,8 +2036,8 @@ input, select, textarea {
 				width: 400px;
 			}
 			
-			.contact_info_child {
-				scale: 0.7;
+			.contact_info {
+				font-size: 10px;
 			}
 
 		}
@@ -2085,8 +2085,8 @@ input, select, textarea {
 				width: 250px;
 			}
 			
-			.contact_info_child {
-				scale: 0.5;	
+			.contact_info {
+				font-size: 10px;
 			}
 
 		}
