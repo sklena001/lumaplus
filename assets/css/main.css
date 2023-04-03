@@ -1890,22 +1890,6 @@ input, select, textarea {
 			border-radius: 4px;
 		}
 		
-		.contact_info {
-			display: -moz-flex;
-			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
-			margin-bottom: 0;
-			list-style: none;
-			padding-left: 0;
-	
-		}
-		
-		.contact_info_child {
-			display: inline;
-			margin: 4%;
-			text-align: center;
-		}
 
 			#header nav ul li {
 				padding-left: 0;
@@ -1997,8 +1981,12 @@ input, select, textarea {
 				width: 500px;
 			}
 			
-			.contact_info {
+			.contact_item {
 				font-size: 11px;
+			}
+			
+			.accodian-items .title {
+				font-size: 12px;
 			}
 
 		}
@@ -2036,9 +2024,13 @@ input, select, textarea {
 				width: 400px;
 			}
 			
-			.contact_info {
+			.contact_item {
 				font-size: 11px;
 			}
+
+			.accodian-items .title {
+				font-size: 12px;
+			}			
 
 		}
 
@@ -2085,9 +2077,13 @@ input, select, textarea {
 				width: 250px;
 			}
 			
-			.contact_info {
+			.contact_item {
 				font-size: 11px;
 			}
+			
+			.accodian-items .title {
+				font-size: 12px;
+			}			
 
 		}
 
