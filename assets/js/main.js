@@ -739,6 +739,31 @@ $(document).ready(function() {
   });
 
 });
+	
+//--- Contact info ---//
+	
+$(document).ready(function() {
+	$(".accodian-wrap").children('.accodian-items:first-child').addClass("active").children(".discription").slideDown(400);
+
+	$(".accodian-items > .title").on("click",function(e){  
+		if($(this).parents(".accodian-items").hasClass("active") && (!($(this).parent().hasClass("active")) ) ){ 
+			$(this).parent().siblings().removeClass("active");
+			$(this).parent().addClass("active");
+			$(this).parent().siblings(".accodian-items").children(".discription").slideUp(400);
+			$(this).siblings(".discription").slideDown(400); 
+		}	
+		else if($(this).parents(".accodian-items").hasClass("active") && $(this).parent().hasClass("active")){
+			$(this).parent().removeClass("active");
+			$(this).siblings(".discription").slideUp(400); 
+		} 
+		else{
+			$(".accodian-items > .title").parent().removeClass("active");
+			$(this).parent().addClass("active");
+			$(".accodian-items > .discription").slideUp(400);
+			$(this).siblings(".discription").slideDown(400);
+		}
+	});
+}); 
 					
 					
 
