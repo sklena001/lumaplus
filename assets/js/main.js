@@ -756,8 +756,14 @@ $(document).ready(function() {
 			$(this).parent().removeClass("active");
 			$(this).siblings(".discription").slideUp(400); 
 		} 
-		else{
+		else if{
 			$(".accodian-items > .title").parent().removeClass("active");
+			$(this).parent().addClass("active");
+			$(".accodian-items > .discription").slideUp(400);
+			$(this).siblings(".discription").slideDown(400);
+		}
+		else{
+			$(".accodian-items > .title-main").parent().removeClass("active");
 			$(this).parent().addClass("active");
 			$(".accodian-items > .discription").slideUp(400);
 			$(this).siblings(".discription").slideDown(400);
