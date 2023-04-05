@@ -1993,8 +1993,8 @@ input, select, textarea {
 				font-size: 11px;
 			}
 			
-			.accodian-items .title {
-				font-size: 12px;
+			.accodian-items {
+				scale: 80%;
 			}
 		}
 
@@ -2035,8 +2035,8 @@ input, select, textarea {
 				font-size: 11px;
 			}
 
-			.accodian-items .title {
-				font-size: 12px;
+			.accodian-items {
+				scale: 80%;
 			}			
 
 		}
@@ -2088,8 +2088,8 @@ input, select, textarea {
 				font-size: 11px;
 			}
 			
-			.accodian-items .title {
-				font-size: 12px;
+			.accodian-items {
+				scale: 75%;
 			}			
 
 		}
