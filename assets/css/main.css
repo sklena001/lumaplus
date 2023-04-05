@@ -3504,52 +3504,20 @@ $contentFadeinAT: 0.5s;
 	margin-top: -3px;
 	}
 
-.accodian items .title-main {
-	font-size: 30px
-}
-
-@media screen and (max-width: 1440px) {
-	.accodian-items .title-main {
-		font-size: 20px;
-	}
-		
-	.accodian-items {
-		margin: 1%;
-	}
-	
-	.accodian-items .title {
-		font-size: 15px;
-	}
-	
-	.discription {
-		font-size: 12px;
-	}
-}
-
-@media screen and (max-width: 736px) {
-	.accodian-items {
-		padding: 2%;
-	}
-	
-	.accodian-items .title {
-		font-size: 11px;
-	}
-	
-	.discription {
-		font-size: 10px;
-	}
-}
-
-@media screen and (max-width: 480px) {
-	.accodian-items {
-		padding: 3%;
+.accodian-items .accodian-items .title-main{
+	padding: 13px 20px;
+	font-size: 30px;
 	}
 
-	.accodian-items .title {
-		font-size: 11px;
+.accodian-items .accodian-items .title-main:after{
+	border-width: 3px; 
+	border-top: 0;
+	border-right: 0;
 	}
 	
-	.discription {
-		font-size: 10px;
+.accodian-items .accodian-items.active > .title-main:after{
+	border: 3px solid #fff;
+	border-left: 0px solid transparent;
+	border-bottom: 0px solid transparent;
+	margin-top: -3px;
 	}
-}
