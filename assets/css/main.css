@@ -1988,7 +1988,6 @@ input, select, textarea {
 			.accodian-items .title {
 				font-size: 12px;
 			}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3504,20 +3503,7 @@ $contentFadeinAT: 0.5s;
 	margin-top: -3px;
 	}
 
-.accodian-items .accodian-items .title-main{
+.accodian-items .accodian-items .main-title{
 	padding: 13px 20px;
 	font-size: 30px;
-	}
-
-.accodian-items .accodian-items .title-main:after{
-	border-width: 3px; 
-	border-top: 0;
-	border-right: 0;
-	}
-	
-.accodian-items .accodian-items.active > .title-main:after{
-	border: 3px solid #fff;
-	border-left: 0px solid transparent;
-	border-bottom: 0px solid transparent;
-	margin-top: -3px;
 	}
