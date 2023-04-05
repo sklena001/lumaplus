@@ -586,6 +586,14 @@ input, select, textarea {
 
 	}
 
+	@media screen and (max-height: 1100px) {
+
+		html, body {
+			height: 1000px;
+		}
+
+	}
+
 	html {
 		box-sizing: border-box;
 	}
